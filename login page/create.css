@@ -1,0 +1,67 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+body {
+	background-image: url(1455162038491.jpg);
+	height:170vh;
+	background-size:cover;
+	background-position:left;
+
+}
+
+.main-page{
+	width: 420px;
+	margin: 100px;
+	padding:10% 0 0;
+	}
+	
+	
+form { 
+position: relative;
+background:rgba(7, 40, 195, 0.8);
+max-width: 360px;
+padding: 36px;
+text-align:center;
+}
+
+.form input {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	background:#CCF;
+	width: 100%;
+	border: 0; 
+	margin: 0 0 12px;
+	padding: 12px;
+	box-sizing: border-box;
+	font-size:14px;
+}
+
+.form i{ 
+width:28px;
+float:left;
+}
+.form button {font-family: Georgia, "Times New Roman", Times, serif; 
+outline: none;
+background:#003;
+padding:10px;
+color: #FFF;
+font-size: 14px;
+font-weight:bold;
+cursor: pointer;
+width:100%;
+
+}
+.form button:hover, .form button:active { background: #006;
+}
+.form .query {
+	margin:15px 0 0;
+	color: #CCF;
+    font-weight:bold;
+    font-size: 14px;
+}
+
+.form .query a{
+	 color: #F63;
+     text-decoration: none;
+}
+form.registration{
+	display:none;
+}
